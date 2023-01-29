@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #f2e9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.gallery-iven {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgiven-box{
+    width: 100px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 50px;
+    background: url(images/tupac.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: width 0.5s;
+}
+
+.imgiven-box:nth-child(2){
+    background: url(images/Chua\ df.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgiven-box:nth-child(3){
+    background: url(images/snoop\ dogg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.imgiven-box:nth-child(4){
+    background: url(images/ice\ cube.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgiven-box h3{
+    color: #4fc40f;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+
+.imgiven-box:hover{
+    width: 300px;
+    cursor: pointer;
+}
+
+
+.imgiven-box:hover h3{
+    opacity: 1;
+    bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
